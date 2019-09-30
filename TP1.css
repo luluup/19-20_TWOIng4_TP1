@@ -1,0 +1,52 @@
+main {
+	color : pink;
+	}
+
+
+
+
+.barre {   background: pink;
+			height: 40px; 
+		 } 
+.barre ul li {
+				
+				list-style: none;
+				font-style: normal;
+				font-family: andale mono;
+				font-stretch: semi-expanded;
+				font-variant: small-caps;
+				font-size: "+2";
+
+				}
+
+.barre ul li a {
+	float: right;
+	line-height: 5px;
+	padding: 5px 20px;
+
+}
+
+.barre ul li a:hover{
+	border-top: 5px solid pink;
+	background-color: white;
+}
+
+.photo{
+	float: left;
+	height: 100px;
+}
+.prez{
+	text-align: center;
+	margin-top: 6em;
+	font-family: andale mono;
+	color: pink;
+	animation: bounce .5s alternate 0.1s infinite ease-in;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
