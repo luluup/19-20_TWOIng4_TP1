@@ -1,13 +1,17 @@
 body {
 	background-color: #ececec;
+	width: 100%;
 	}
 
 
 
 
-.barre {   background: #d0e0e3;
+.barre {   
+			background: #d0e0e3;
 			height: 40px; 
-		 } 
+			width: 100%;
+		} 
+
 .barre ul li {
 				
 				list-style: none;
@@ -95,8 +99,9 @@ footer{
 }
 
 h3{
-	font-family: andale mono;
+	font-family: Palatino, URW Palladio L, serif ;
 	font-variant: small-caps;
+	color: #79a3ab;
 	animation: bounce2 .5s alternate 0.1s infinite ease-in;
 	font-size: 25px;
 }
@@ -109,17 +114,17 @@ h3{
   }
 }
 .Hs{
-	font-family: andale mono;
+	font-family: Palatino, URW Palladio L, serif ;
 	font-style: bold;
 	font-size: 20px;
-	color: #96cec5;
+	color: #79a3ab;
 }
 
-.comp{
-	color: #96cec5;
-	margin-left: 460px;
+.Comp{
+	color: #79a3ab;
+	margin-left: 450px;
 	padding-right: 500px;
-	font-family: andale mono;
+	font-family: Palatino, URW Palladio L, serif ;
 	font-variant: small-caps;
 	font-size: 30px;
 }
@@ -129,27 +134,24 @@ h3{
 	color: white;
 	font-style: bold;
 	font-size: 20px;
+	font-family: Palatino, URW Palladio L, serif ;
 }
 
 .SousLangues{
-	background-image: url(anglais.jpg);
-	color: white;
+	color: #79a3ab;
 	font-style: bold;
 	font-size: 20px;
+	font-family: Palatino, URW Palladio L, serif ;
 }
 
 .Hob{
-	background-image: url(hobbi.jpg);
 	font-family: andale mono;
 	font-size: 20px;
 	font-weight: 1000;
 	color: white;
+	width: 100%;
 }
 
-.Exp{
-	background-image: url(fond.jpg);
-	font-family: Palatino, URW Palladio L, serif ;
-}
 
 form{
 	font-family: andale mono;
@@ -173,4 +175,46 @@ input[type=submit]{
 	 margin-left:5px;
 	 box-shadow:1px 1px 1px #D83F3D;
 	 cursor:pointer;
+}
+
+
+div#slider
+{ 
+	width: 80%; 
+	max-width: 1000px; 
+	margin-left: 130px;
+	overflow: hidden; 
+}
+
+div#slider figure img 
+{ 
+	width: 20%; 
+	height: auto; 
+	float: left; 
+}
+
+
+
+div#slider figure 
+{  
+  width: 500%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  position: relative;
+  text-align: left;
+  animation: 25s slidy infinite;
+}
+@keyframes slidy 
+{
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
 }
