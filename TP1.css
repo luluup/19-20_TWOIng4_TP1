@@ -1,33 +1,22 @@
 body {
 	background-color: #ececec;
 	width: 100%;
-	}
-
-
-
+}
 
 .barre {   
-			background: #d0e0e3;
-			height: 40px; 
-			width: 100%;
-		} 
+	background: #d0e0e3;
+	height: 45px; 
+	width: 100%;
+} 
 
 .barre ul li {
-				
-				list-style: none;
-				font-style: normal;
-				font-family: andale mono;
-				font-stretch: semi-expanded;
-				font-variant: small-caps;
-				font-size: "+2";
-
-				}
+	list-style: none;
+}
 
 .barre ul li a {
 	float: right;
 	line-height: 10px;
 	padding: 10px 10px;
-
 }
 
 .barre ul li a:hover{
@@ -35,24 +24,25 @@ body {
 	background-color: #d0e0e3;
 }
 
+
 footer{
-			background-color: #d0e0e3;
-			color:grey;
-			height: 25px;
+	background-color: #d0e0e3;
+	color:grey;
+	height: 25px;
 }
 
-.Foot li {
+footer li {
 	float: middle;
 	display: inline-block;
 	padding: 30px 30px;
 	list-style-type: none;
-	
 }
 
-.Foot li a:hover{
+footer li a:hover{
 	border-top: 3px solid grey;
 	background-color: grey;
 }
+
 
 .photo{
 	float: left;
@@ -84,6 +74,7 @@ footer{
 	font-family: Palatino, URW Palladio L, serif ;
 }
 
+
 .cart{
 	animation: bounce .5s alternate 0.1s infinite ease-in;
 	margin-top: 120px;
@@ -113,6 +104,7 @@ h3{
     transform: translateX(0);
   }
 }
+
 .Hs{
 	font-family: Palatino, URW Palladio L, serif ;
 	font-style: bold;
@@ -137,24 +129,19 @@ h3{
 	font-family: Palatino, URW Palladio L, serif ;
 }
 
-.SousLangues{
-	color: #79a3ab;
-	font-style: bold;
-	font-size: 20px;
-	font-family: Palatino, URW Palladio L, serif ;
-}
 
 .Hob{
-	font-family: andale mono;
+	font-family: Palatino, URW Palladio L, serif ;
 	font-size: 20px;
 	font-weight: 1000;
-	color: white;
+	color: #79a3ab;
 	width: 100%;
+	margin-top: 10px;
 }
 
 
 form{
-	font-family: andale mono;
+	font-family: Palatino, URW Palladio L, serif ;
 	font-style: bold;
 	font-weight: 1000;
 	color: white;
@@ -168,35 +155,32 @@ input, textarea, select {
 		 border: 1px solid grey;
 		 border-radius: 5px;
 		 width: 200px;
-		 box-shadow: 1px 1px 2px #C0C0C0 inset;
+		 box-shadow: 1px 1px 2px #00e9fe;
  }
+
 input[type=submit]{
 	 width:100px;
 	 margin-left:5px;
-	 box-shadow:1px 1px 1px #D83F3D;
+	 box-shadow:1px 1px 1px red;
 	 cursor:pointer;
 }
 
 
-div#slider
-{ 
+div#slider{ 
 	width: 80%; 
 	max-width: 1000px; 
 	margin-left: 130px;
 	overflow: hidden; 
 }
 
-div#slider figure img 
-{ 
+div#slider figure img { 
 	width: 20%; 
 	height: auto; 
 	float: left; 
 }
 
 
-
-div#slider figure 
-{  
+div#slider figure {  
   width: 500%;
   margin: 0;
   padding: 0;
@@ -206,6 +190,7 @@ div#slider figure
   text-align: left;
   animation: 25s slidy infinite;
 }
+
 @keyframes slidy 
 {
   0% { left: 0%; }
